@@ -63,6 +63,9 @@ public class SystemFrame extends JFrame{
 	      buttonHU = new JButton("Create Account");
 	     // Dimension size = buttonHU.getPreferredSize();
 	      buttonHU.setBounds(180, 220, 140, 25);
+	      buttonHU.setIconTextGap(-10);
+	      buttonHU.setFont(new Font("Comic Sans", Font.BOLD,15));
+	      buttonHU.setBorder(BorderFactory.createEtchedBorder());
 	      ActionListener listener = new AddInterestListener();
 	      buttonHU.addActionListener(listener);   
 	   }
@@ -72,6 +75,9 @@ public class SystemFrame extends JFrame{
 	      buttonVO = new JButton("Login");
 	     // Dimension size = buttonVO.getPreferredSize();
 	      buttonVO.setBounds(180, 180, 140, 25);
+	      buttonVO.setIconTextGap(-10);
+	      buttonVO.setFont(new Font("Comic Sans", Font.BOLD,15));
+	      buttonVO.setBorder(BorderFactory.createEtchedBorder());
 	      ActionListener listener = new AddInterestListener();
 	      buttonVO.addActionListener(listener);   
 	   }
